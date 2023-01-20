@@ -7,8 +7,11 @@ input.onButtonPressed(Button.A, function () {
     }
     basic.showIcon(IconNames.Heart)
 })
+function display (duration: number, blink: boolean) {
+    basic.showNumber(duration)
+}
 let count = 0
+let recover = 0
 let work = 25
-let recover = 5
+recover = 5
 let action = "work"
-
